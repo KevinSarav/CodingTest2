@@ -1,0 +1,50 @@
+﻿body {
+}
+
+.lblLarge {
+    margin-top: 20px;
+    display: block;
+    font-size: x-large;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.lblSmall {
+    display: block;
+    font-size: small;
+    margin-left: 45px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.input {
+    margin-left: 45px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.valError {
+    margin-left: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+#lblAmount {
+    display: inline-block;
+    margin-left: 10px;
+    color: orangered;
+}
+
+.btn {
+    margin-top: 20px;
+    display: block;
+    margin-left: 25px;
+}
+
+#ddlMonth, #ddlDay, #ddlYear {
+    /* Not sure exactly how to style this*/
+    /*Line below is meant to add an image for the up-down arrow? Commented out because I don't have an image*/
+    /*background:url('arrow.png) no repeat;*/
+    /*Line below is meant to round off the edges?*/
+    border-style:groove;
+}
